@@ -1,0 +1,8 @@
+
+<MainWidget>:
+    Button:
+        text: "Hello :)"
+
+<BoxLayoutExample>:
+    Button:
+        text: "Hello please :)"
