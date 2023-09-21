@@ -1,0 +1,52 @@
+StackLayoutExample
+
+<StackLayoutExample>:
+    # rl = right-left bt = bottom-top
+    orientation: "rl-bt"
+    Button:
+        text: "A"
+        size_hint: .2,.2
+    Button:
+        text: "b"
+        size_hint: .2,.2
+    Button:
+        text: "c"
+        size_hint: .2,.2
+    Button:
+        text: "beans"
+        size_hint: .2,.2
+    Button:
+        text: "d"
+        size_hint: .2,.2
+    Button:
+        text: "big button"
+        size_hint: .4,.2
+
+
+<MainWidget>:
+    orientation: "vertical"
+    Button:
+        text: "Hello :)"
+        background_color: 255,0,255
+    Label:
+        text: "WORK"
+
+<BoxLayoutExample>:
+    orientation: "vertical"
+    spacing: "20dp"
+    Button:
+        text: "Hello please :)"
+        background_color: 255,0,255
+        size_hint: 1,.5
+        pos_hint: {"center_x": .25}
+    Button:
+        text: "PLACEHOLDER"
+    Button:
+        text: "PLACEHOLDER"
+    BoxLayout:
+        Button:
+            text: "yoo its working"
+        Label:
+            text: "I am label :D"
+    Label:
+        text: "PLEASE WORK"
