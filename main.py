@@ -6,6 +6,9 @@ from kivy.uix.widget import Widget
 from kivy.uix.stacklayout import StackLayout
 from kivy.uix.gridlayout import GridLayout
 
+class LayoutAssignment(BoxLayout):
+    pass
+
 class GridLayoutExample(GridLayout):
     pass
 class StackLayoutExample(StackLayout):

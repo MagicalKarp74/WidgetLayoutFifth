@@ -1,4 +1,37 @@
-ScrollViewExample
+LayoutAssignment
+
+<LayoutAssignment>:
+    orientation: "vertical"
+    Label:
+        text: "KivyLayout Assignment"
+        size_hint: 1,.2
+    BoxLayout:
+        orientation: "horizontal"
+        BoxLayout:
+            orientation: "horizontal"
+            Button:
+                orientation: "vertical"
+                text: "Button A"
+                background_color: 255,0,255
+            Button:
+                text: "Button B"
+                background_color: 255,0,255
+        BoxLayout:
+            orientation: "vertical"
+            Button:
+                text: "Button C"
+                background_color: 0,0,255
+            Button:
+                text: "Button D"
+                background_color: 0,0,255
+            Button:
+                text: "Button D"
+                background_color: 0,0,255
+        GridLayout:
+            rows: 6
+
+
+
 
 <ScrollViewExample@ScrollView>:
     StackLayoutExample:
