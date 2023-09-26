@@ -1,26 +1,49 @@
-StackLayoutExample
+ScrollViewExample
+
+<ScrollViewExample@ScrollView>:
+    StackLayoutExample:
+        size_hint: 1, None
+        height: self.minimum_height
+
+<GridLayoutExample>:
+    rows: 2
+    spacing: "20dp"
+    Button:
+        text: "A"
+    Button:
+        text: "A"
+    Button:
+        text: "A"
+    Button:
+        text: "A"
+    Button:
+        text: "A"
+    Button:
+        text: "A"
+
 
 <StackLayoutExample>:
     # rl = right-left bt = bottom-top
-    orientation: "rl-bt"
-    Button:
-        text: "A"
-        size_hint: .2,.2
-    Button:
-        text: "b"
-        size_hint: .2,.2
-    Button:
-        text: "c"
-        size_hint: .2,.2
-    Button:
-        text: "beans"
-        size_hint: .2,.2
-    Button:
-        text: "d"
-        size_hint: .2,.2
-    Button:
-        text: "big button"
-        size_hint: .4,.2
+    orientation: "lr-tb"
+    spacing: "20dp"
+    #Button:
+        #text: "A"
+        #size_hint: .2,.2
+    #Button:
+        #text: "b"
+        #size_hint: .2,.2
+    #Button:
+        #text: "c"
+        #size_hint: .2,.2
+    #Button:
+        #text: "beans"
+        #size_hint: .2,.2
+    #Button:
+        #text: "d"
+        #size_hint: .2,.2
+    #Button:
+        #text: "big button"
+        #size_hint: .4,.2
 
 
 <MainWidget>:
