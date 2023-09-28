@@ -10,9 +10,16 @@ class LayoutAssignment(BoxLayout):
     pass
 
 class GridLayoutExample(GridLayout):
-    pass
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        self.orientation = "lr-tb"
+        self.rows = 6
+        self.spacing = "20dp"
+        for i in range(1,19):
+            b = Button(text = "Button "+str(i))
+            self.add_widget(b)
 class StackLayoutExample(StackLayout):
-    def __int__(self, **kwargs):
+    def __init__(self, **kwargs):
         super().__init__(**kwargs)
         self.orientation = "lr-tb"
         for letter in "abcdefghijklmnopqrstuvwxyz1234567890":

@@ -7,8 +7,10 @@ LayoutAssignment
         size_hint: 1,.2
     BoxLayout:
         orientation: "horizontal"
+        spacing: "20dp"
         BoxLayout:
             orientation: "horizontal"
+            spacing: "20dp"
             Button:
                 orientation: "vertical"
                 text: "Button A"
@@ -17,6 +19,7 @@ LayoutAssignment
                 text: "Button B"
                 background_color: 255,0,255
         BoxLayout:
+            spacing: "20dp"
             orientation: "vertical"
             Button:
                 text: "Button C"
@@ -27,8 +30,8 @@ LayoutAssignment
             Button:
                 text: "Button D"
                 background_color: 0,0,255
-        GridLayout:
-            rows: 6
+        GridLayoutExample
+
 
 
 
@@ -38,21 +41,21 @@ LayoutAssignment
         size_hint: 1, None
         height: self.minimum_height
 
-<GridLayoutExample>:
-    rows: 2
-    spacing: "20dp"
-    Button:
-        text: "A"
-    Button:
-        text: "A"
-    Button:
-        text: "A"
-    Button:
-        text: "A"
-    Button:
-        text: "A"
-    Button:
-        text: "A"
+#<GridLayoutExample>:
+    #rows: 2
+    #spacing: "20dp"
+    #Button:
+        #text: "A"
+    #Button:
+        #text: "A"
+    #Button:
+        #text: "A"
+    #Button:
+        #text: "A"
+    #Button:
+        #text: "A"
+    #Button:
+        #text: "A"
 
 
 <StackLayoutExample>:
